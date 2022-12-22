@@ -1,0 +1,60 @@
+pps-tools (1.0.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * [dae2c37] Trim trailing whitespace.
+    Fixes lintian: file-contains-trailing-whitespace
+  * [b59e3b5] Use secure copyright file specification URI.
+    Fixes lintian: insecure-copyright-format-uri
+  * [24cb0d2] Update standards version to 4.1.1, no changes needed.
+    Fixes lintian: out-of-date-standards-version
+  * [119ab37] Bump debhelper from old 10 to 12.
+    Fixes lintian: package-uses-old-debhelper-compat-version
+  * [54da43a] Change priority extra to priority optional.
+    Fixes lintian: priority-extra-is-replaced-by-priority-optional
+  * [d3cbd02] debian/copyright: Use spaces rather than tabs in continuation lines.
+  * [43f4d21] Set upstream metadata fields: Repository.
+    Fixes lintian: upstream-metadata-file-is-missing
+  * [fc48076] Use secure URI in Vcs control header.
+    Fixes lintian: vcs-field-uses-insecure-uri
+  * [8a8a8c7] Make "Files: *" paragraph the first in the copyright file.
+    Fixes lintian: global-files-wildcard-not-first-paragraph-in-dep5-copyright
+
+ -- Bernd Zeimetz <bzed@debian.org>  Mon, 02 Mar 2020 21:38:23 +0100
+
+pps-tools (1.0.2-1) unstable; urgency=medium
+
+  * [efb1ff7] Merge branch 'master' into debian
+    Updating to 1.0.2 (Closes: #889185, Thanks to
+    Steve Langasek and Alexander Gerasiov).
+
+ -- Bernd Zeimetz <bzed@debian.org>  Sun, 04 Feb 2018 01:05:11 +0100
+
+pps-tools (1.0.1-1) unstable; urgency=medium
+
+  * [4b2ceb3] Merge branch 'master' into debian
+  * [9677d4f] Merge branch 'gerasiov-debian' into debian
+    This resolves #1, thanks a lot to Alexander Gerasiov!
+
+ -- Bernd Zeimetz <bzed@debian.org>  Wed, 30 Aug 2017 22:51:12 +0200
+
+pps-tools (0.20120406+g0deb9c7e-3) unstable; urgency=low
+
+  * [9f3b0cc3] Set defaults in debian/gbp.conf.
+  * [4c98c525] Remove ppsldisc from manpage.
+    This tool is not in the pps-tools distribution anymore.
+    Thanks to Douglas F. Calvert (Closes: #697399)
+
+ -- Bernd Zeimetz <bernd@bzed.de>  Fri, 04 Jan 2013 22:21:33 +0100
+
+pps-tools (0.20120406+g0deb9c7e-2) unstable; urgency=low
+
+  * [29f982a0] Add missing include.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Wed, 23 May 2012 21:31:41 +0200
+
+pps-tools (0.20120406+g0deb9c7e-1) unstable; urgency=low
+
+  * Initial packaging by Alexander Gordeev, finished for Debian by
+    Bernd Zeimetz.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Tue, 22 May 2012 19:34:48 +0200

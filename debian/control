@@ -1,0 +1,21 @@
+Source: pps-tools
+Section: devel
+Priority: optional
+Maintainer: Bernd Zeimetz <bzed@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.1.1
+Homepage: https://github.com/redlab-i/pps-tools
+Vcs-Browser: https://github.com/bzed/pps-tools
+Vcs-Git: https://github.com/bzed/pps-tools.git
+
+Package: pps-tools
+Architecture: linux-any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: LinuxPPS support tools and headers
+ This package includes the necessary headers for using LinuxPPS PPSAPI
+ kernel interface in user-space applications and several support tools:
+  * ppstest: PPSAPI interface tester
+  * ppsldisc: setup correct RS232 line discipline
+  * ppswatch: continuously print PPS timestamps
+  * ppsctl: PPS device manager
+  * ppsfind: find pps device by name
